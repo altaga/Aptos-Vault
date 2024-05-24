@@ -72,7 +72,7 @@ const BaseStatePaymentWallet = {
   status: 'Processing...',
   explorerURL: '',
   transactionDisplay: {
-    name: 'GLMR',
+    name: 'APT',
     amount: 0,
   },
   // QR print

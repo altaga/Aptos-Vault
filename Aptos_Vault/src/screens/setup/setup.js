@@ -171,7 +171,7 @@ export default class Setup extends Component {
                   color: 'white',
                   fontFamily: 'DMSans-Medium',
                 }}>
-                Batch transactions, smart savings and card payments.
+                Batch transactions, optimized savings, and seamless card payments.
               </Text>
               <Pressable
                 disabled={this.state.loading}
