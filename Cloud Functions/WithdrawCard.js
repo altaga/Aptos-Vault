@@ -10,8 +10,7 @@ const {
   TransactionWorkerEventsEnum
 } = require("@aptos-labs/ts-sdk");
 
-const privateKey = `-----BEGIN RSA PRIVATE KEY-----
------END RSA PRIVATE KEY-----`;
+const privateKey = ``;
 
 const db = new Firestore({
   projectId: "aptos-vault",

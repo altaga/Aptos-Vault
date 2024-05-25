@@ -26,7 +26,7 @@ VIDEODEMO: [VIDEO](PENDING...)
 
 # Screens:
 
-Nuestra app es una solución integral para la adopción de crypto en el mundo. Gracias a nuestras múltiples features como savings y pagos con tarjeta, las personas que no estan familiarizadas con las blockchain pueden adentrarse en estas tecnologías y sus beneficios con la menor fricción posible. A continuación, hablaremos un poco de las particularidades de nuestra wallet y de su funcionalidad a detalle [1].
+Nuestra app es una solución integral para la adopción de crypto en el mundo. Gracias a nuestras múltiples features como savings y pagos con tarjeta, las personas que no estan familiarizadas con las blockchain pueden adentrarse en estas tecnologías y sus beneficios con la menor fricción posible. A continuación, hablaremos un poco de las particularidades de nuestra wallet y de su funcionalidad a detalle [1](#references).
 
 ## Wallet:
 
