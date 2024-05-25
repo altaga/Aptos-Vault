@@ -26,7 +26,7 @@ VIDEODEMO: [VIDEO](PENDING...)
 
 # Screens:
 
-Nuestra app esta dividida en varias secciones, hablaremos un poco de las particularidades de nuestra wallet y de su funcionalidad a detalle.
+Nuestra app es una solución integral para la adopción de crypto en el mundo. Gracias a nuestras múltiples features como savings y pagos con tarjeta, las personas que no estan familiarizadas con las blockchain pueden adentrarse en estas tecnologías y sus beneficios con la menor fricción posible. A continuación, hablaremos un poco de las particularidades de nuestra wallet y de su funcionalidad a detalle [1].
 
 ## Wallet:
 
@@ -40,7 +40,7 @@ Esta pantalla es importante y que nos permite realizar transferencias sencillas 
 
 <img src="https://i.ibb.co/jrtYYZf/Screenshot-20240523-182604.png" width="32%"> <img src="https://i.ibb.co/qFh55Z7/Screenshot-20240523-182744.png" width="32%"> <img src="https://i.ibb.co/xJXSbNg/vlcsnap-2024-05-05-13h55m31s607.png" width="32%">
 
-Cabe recordar que si esta activa la cuenta de Savings, se agregara una transaccion mas a la transferencia final hacia nuestra cuenta de ahorros.
+Cabe recordar que si esta activa la cuenta de Savings, se agregara una transaccion mas a la transferencia final hacia nuestra cuenta de ahorros, todo esto es muy sencillo de hacer con Aptos, incluso siendo Mastercard uno de los clientes de la misma [2](#references).
 
 ## Receive:
 
@@ -58,7 +58,7 @@ As you can see, since it is a Custodial Account Card, we can review the amount o
 
 <img src="https://i.ibb.co/F745TtX/Screenshot-20240523-183506.png" width="32%"> <img src="https://i.ibb.co/DgBssTZ/Screenshot-20240523-183512.png" width="32%"> <img src="https://i.ibb.co/jh6RfDZ/Screenshot-20240523-183521.png" width="32%">
 
-Finally, if our device has the option to print the purchase receipt, it can be printed immediately.
+Finally, if our device has the option to print the purchase receipt, it can be printed immediately. Todos los pagos son realizados sobre la Mainnet de Aptos, esto con el fin de tener una forma de pagos rapida y segura gracias a las 160,000 transacciones por segundo que soporta la red sin perder su seguridad. [3](#references).
 
 ## Savings:
 
@@ -113,3 +113,9 @@ Los codigos de las fuinciones para crear una tarjeta y hacer transacciones con e
 
 - [ADD CARD](./Cloud%20Functions/AddCard.js)
 - [WITHDRAW CARD](./Cloud%20Functions/WithdrawCard.js)
+
+# References:
+
+1. https://blog.quicknode.com/aptos-network-quicknode-solving-blockchain-challenges-with-scalability-to-move-web3-towards-widespread-adoption/
+2. https://aptosfoundation.org/use-cases/defi
+3. https://medium.com/@idoexist99/aptos-the-speedy-new-blockchain-built-for-cool-dapps-2f39c55f8d56
