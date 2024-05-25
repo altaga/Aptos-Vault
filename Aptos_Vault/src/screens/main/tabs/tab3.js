@@ -315,7 +315,7 @@ export default class Tab3 extends Component {
           console.log(data);
           this.aptos.transaction.batch.removeAllListeners();
           this.setState({
-            explorerURL: `${blockchain.blockExplorer}account/${this.context.value.publicKey}?network=${network}`,
+            explorerURL: `${blockchain.blockExplorer}account/${this.context.value.publicKey}?network=${network}#coins`,
             status: 'Confirmed',
           });
         },

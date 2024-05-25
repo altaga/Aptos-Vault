@@ -163,7 +163,7 @@ class SendWallet extends Component {
           console.log(data);
           this.aptos.transaction.batch.removeAllListeners();
           this.setState({
-            explorerURL: `${blockchain.blockExplorer}account/${this.context.value.publicKey}?network=${network}`,
+            explorerURL: `${blockchain.blockExplorer}account/${this.context.value.publicKey}?network=${network}#coins`,
             status: 'Confirmed',
           });
         },
@@ -253,10 +253,11 @@ async getTransaction(address, amountIn, tokenAddress) {
           },
         });
       }
-      let totalAmount = ethers.utils.parseEther('0').toBigInt();
+      let totalAmount = parseInt(ethers.utils.parseEther('0').toString());
       transactions.forEach(item => {
         totalAmount = totalAmount + item.functionArguments[1];
       });
+      console.log(totalAmount);
       const individualTransactions = await Promise.all(
         transactions.map(data =>
           this.aptos.transaction.build.simple({

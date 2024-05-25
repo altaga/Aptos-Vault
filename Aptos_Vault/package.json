@@ -20,7 +20,7 @@
     "postuninstall": "patch-package"
   },
   "dependencies": {
-    "@aptos-labs/ts-sdk": "^1.14.0",
+    "@aptos-labs/ts-sdk": "^1.16.0",
     "@pontem/liquidswap-sdk": "^0.7.1",
     "@react-native-async-storage/async-storage": "^1.23.1",
     "@react-native-clipboard/clipboard": "^1.14.1",

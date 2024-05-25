@@ -7,7 +7,7 @@ import {AptosConfig, Network} from '@aptos-labs/ts-sdk';
 
 const w = 50;
 const h = 50;
-export const network = Network.MAINNET
+export const network = Network.MAINNET;
 
 export const iconsBlockchain = {
   apt: <Image source={APT} style={{width: w, height: h, borderRadius: 10}} />,
@@ -24,7 +24,9 @@ export const blockchain = {
   blockExplorer: 'https://aptoscan.com/',
   iconSymbol: 'apt',
   decimals: 8,
-  aptosConfig: new AptosConfig({network}),
+  aptosConfig: new AptosConfig({
+    network,
+  }),
   tokens: [
     // Updated 05/MAY/2024
     {

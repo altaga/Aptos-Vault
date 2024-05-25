@@ -130,3 +130,5 @@ dist
 .pnp.*
 clean-commit.bat
 *.keystore
+Aptos_Vault/android/app/release/app-release.aab
+*.aab

@@ -264,3 +264,25 @@ export function percentageSaving(number, percentage) {
 export function percentageSavingToken(number, percentage, usd1, usd2) {
   return number * (percentage / 100) * (usd1 / usd2);
 }
+
+export function verifyWallet(hexString) {
+  // Remove any leading '0x' if present
+  hexString = hexString.replace(/^0x/, '');
+
+  // Ensure the length of the hex string is even
+  if (hexString.length % 2 !== 0) {
+    hexString = '0' + hexString; // Add a leading '0' if necessary
+  }
+
+  // Convert the hex string to a Uint8Array
+  var u8Array = new Uint8Array(hexString.length / 2);
+  for (var i = 0; i < hexString.length; i += 2) {
+    u8Array[i / 2] = parseInt(hexString.substr(i, 2), 16);
+  }
+
+  return u8Array.length === 32;
+}
+
+export function parseToInt(string, decimals) {
+  return parseInt(parseFloat(string) * Math.pow(10, decimals));
+}

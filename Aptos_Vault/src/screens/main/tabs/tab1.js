@@ -34,6 +34,7 @@ class Tab1 extends Component {
   static contextType = ContextModule;
 
   async componentDidMount() {
+    console.log(this.aptos);
     const balances = await getAsyncStorageValue('balances');
     const usdConversion = await getAsyncStorageValue('usdConversion');
     const activeTokens = await getAsyncStorageValue('activeTokens');
@@ -90,6 +91,7 @@ class Tab1 extends Component {
     const balances = blockchain.tokens.map((token, index) =>
       ethers.utils.formatUnits(balancesTemp[index], token.decimals),
     );
+    console.log(balances);
     await setAsyncStorageValue({balances});
     await this.setState({balances});
   }

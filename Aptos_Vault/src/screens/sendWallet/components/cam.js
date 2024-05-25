@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Alert, PermissionsAndroid, Platform} from 'react-native';
 import {Camera} from 'react-native-camera-kit';
+import { verifyWallet } from '../../../utils/utils';
 
 class Cam extends Component {
   constructor(props) {
@@ -48,7 +49,7 @@ class Cam extends Component {
             scanBarcode={this.state.scanning}
             onReadCode={event => {
               let temp = event.nativeEvent.codeStringValue;
-              if (temp.length === 64) {
+              if (verifyWallet(temp)) {
                 this.setState(
                   {
                     scanning: false,

@@ -156,13 +156,13 @@ async getTransaction(address, amountIn, tokenAddress) {
           : '0x1::aptos_account::transfer_coins',
       typeArguments:
         tokenAddress === blockchain.tokens[0].address ? [] : [tokenAddress],
-      functionArguments: [address, parseInt(amountIn.toString())],
+      functionArguments: [address, amountIn.toString()],
     };
   }
 
   async processPayment() {
     await this.setStateAsync({
-      explorerURL: `${blockchain.blockExplorer}account/${this.state.publicKeyCard}?network=${network}`,
+      explorerURL: `${blockchain.blockExplorer}account/${this.state.publicKeyCard}?network=${network}#coins`,
       status: 'Confirmed',
       loading: false,
     });

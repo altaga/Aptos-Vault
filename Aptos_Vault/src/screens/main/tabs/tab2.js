@@ -256,7 +256,7 @@ export default class Tab2 extends Component {
         const savingsDate = Date.now() + periodsAvailable[0].periodValue * 1000;
         await setAsyncStorageValue({savingsDate});
         this.setState({
-          explorerURL: `${blockchain.blockExplorer}account/${this.context.value.publicKeySavings}?network=${network}`,
+          explorerURL: `${blockchain.blockExplorer}account/${this.context.value.publicKeySavings}?network=${network}#coins`,
           status: 'Confirmed',
         });
       } else {

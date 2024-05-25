@@ -82,7 +82,7 @@ android {
         applicationId "com.altaga.aptosvault"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 2
+        versionCode 4
         versionName "0.0.1"
         resConfigs "en"
     }
