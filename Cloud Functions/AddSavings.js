@@ -6,7 +6,6 @@ const {
 } = require("@aptos-labs/ts-sdk");
 
 const privateKey = `-----BEGIN RSA PRIVATE KEY-----
-MIIEowIBAAKCAQEAtflt9yF4G1bPqTHtOch47UW9hkSi4u2EZDHYLLSKhGMwvHja
 -----END RSA PRIVATE KEY-----`;
 
 const db = new Firestore({
