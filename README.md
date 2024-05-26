@@ -26,7 +26,7 @@ VIDEODEMO: [VIDEO](PENDING...)
 
 # Introduction:
 
-APTOS-Vault is a blockchain wallet and platform that empowers underserverd communities through saving. Employing novel Blockchain technologies thrugh APTOS such as Batch transactions and optimized savings. It also combines it with TradFi via seamless card payments. All this with the ultimate goal of increasing financial inclusion.
+APTOS-Vault is a blockchain wallet and platform that empowers underserverd communities through saving. Employing novel Blockchain technologies thrugh APTOS such as Batch transactions and optimized savings. It also combines it with TradFi via seamless card payments.
 
 ## Wallet:
 
