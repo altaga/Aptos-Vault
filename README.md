@@ -24,9 +24,9 @@ VIDEODEMO: [VIDEO](PENDING...)
 
 - Batch Transactions: Gracias a la red de Aptos, es posible realizar varias transacciones en batch mediante una sola firma, esto nos permite todas las increibles funcionalidades de nuestra wallet.
 
-# Screens:
+# Introduction:
 
-Nuestra app es una solución integral para la adopción de crypto en el mundo. Gracias a nuestras múltiples features como savings y pagos con tarjeta, las personas que no estan familiarizadas con las blockchain pueden adentrarse en estas tecnologías y sus beneficios con la menor fricción posible. A continuación, hablaremos un poco de las particularidades de nuestra wallet y de su funcionalidad a detalle [1](#references).
+Lightsaver is a blockchain lending platform that empowers underserverd comunities through saving. Empoying novel Blockchain technologies thrugh APTOS such as Batch transactions and optimized savings. It also combines it with TradFi via seamless card payments. All this with the ultimate goal of increasing financial inclusion.
 
 ## Wallet:
 
