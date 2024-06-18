@@ -4,8 +4,8 @@ import {
   Ed25519PrivateKey,
   TransactionWorkerEventsEnum,
 } from '@aptos-labs/ts-sdk';
-import {ethers} from 'ethers';
-import React, {Component, Fragment} from 'react';
+import { ethers } from 'ethers';
+import React, { Component, Fragment } from 'react';
 import {
   Dimensions,
   Image,
@@ -29,7 +29,7 @@ import GlobalStyles, {
   mainColor,
   secondaryColor,
 } from '../../styles/styles';
-import {blockchain, network} from '../../utils/constants';
+import { blockchain, network } from '../../utils/constants';
 import ContextModule from '../../utils/contextModule';
 import {
   balancedSaving,

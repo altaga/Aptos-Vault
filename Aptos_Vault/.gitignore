@@ -76,5 +76,6 @@ yarn-error.log
 .env.production
 
 /patches
+/src
 
 debug.keystore
