@@ -38,7 +38,7 @@ Our main screen is our Main Account, which is a traditional wallet to manage our
 
 This screen is important and allows us to make simple or batch transfers from our wallet. And the code for this screen is the following. [CODE](./Aptos_Vault/src/screens/sendWallet/sendWallet.js)
 
-<img src="https://i.ibb.co/jrtYYZf/Screenshot-20240523-182604.png" width="32%"> <img src="https://i.ibb.co/qFh55Z7/Screenshot-20240523-182744.png" width="32%"> <img src="https://i.ibb.co/xJXSbNg/vlcsnap-2024-05-05-13h55m31s607.png" width="32%">
+<img src="https://i.ibb.co/jrtYYZf/Screenshot-20240523-182604.png" width="32%"> <img src="https://i.ibb.co/qFh55Z7/Screenshot-20240523-182744.png" width="32%">
 
 It should be remembered that if the Savings account is active, one more transaction will be added to the final transfer to our savings account. All this is very easy to do with Aptos, even if Mastercard is one of its clients. [2](#references).
 
